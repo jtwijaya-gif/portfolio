@@ -1,61 +1,73 @@
 [
     {
-        "title": "Lorem ipsum dolor sit.",
+        "title": "Grocery Data Visualization",
+        "year": 2026,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, porro! Modi iste aliquam molestiae commodi vero officiis reprehenderit consequuntur veritatis quasi, animi reiciendis quo perferendis quis tempora ad architecto laboriosam."
+        "description": "DSC 106 Project 1. Compared the percentage of ultra-processed products across Target, Walmart, and Whole Foods using a bar chart."
     },
     {
-        "title": "Cupiditate quisquam excepturi neque!",
+        "title": "Abortion Clinic Data Visualization",
+        "year": 2026,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Vel alias eius voluptate natus necessitatibus repellendus est esse, unde ut possimus. Corporis reiciendis vero quibusdam natus nemo deserunt quod minima enim voluptates, dolores, facilis neque assumenda, inventore sint explicabo?"
+        "description": "DSC 106 Project 2. Worked with a group to create visualizations exploring the relationship between abortion clinic availability and abortion rates across states."
     },
     {
-        "title": "Assumenda impedit nihil qui?",
+        "title": "Personal Portfolio Website",
+        "year": 2026,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Itaque modi explicabo, in minima nobis nam exercitationem beatae ratione optio quae facilis nulla esse officia sunt unde, veritatis ipsum eius distinctio quia dicta voluptate quo sapiente vitae impedit. Rem."
+        "description": "Built a personal portfolio website using HTML, CSS, and JavaScript to showcase my projects, resume, and contact information."
     },
     {
         "title": "Harum repudiandae amet quos.",
+        "year": 2025,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Corporis culpa ratione minima eius vitae sunt laborum, id aliquam consequuntur eaque ipsa aut non fugiat veniam repellat deserunt eos, error quam quis dolores officia animi! Nobis odit optio quibusdam."
     },
     {
         "title": "Quae laborum eum amet.",
+        "year": 2025,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Explicabo fuga repellat deleniti natus corrupti aperiam sequi blanditiis distinctio alias! Ex dolorum corrupti, repellat rerum eum similique assumenda, officia reiciendis explicabo, voluptatibus at omnis error adipisci commodi numquam neque."
     },
     {
         "title": "Error hic fugit soluta.",
+        "year": 2025,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Rem inventore corrupti ducimus iusto adipisci, magnam voluptas. Perspiciatis blanditiis aperiam dicta veniam recusandae! Nihil, provident autem animi debitis quibusdam, dicta numquam suscipit explicabo molestiae voluptate, qui ex illo veniam."
     },
     {
         "title": "Dicta repellat saepe consectetur.",
+        "year": 2025,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Doloremque, minima. Fuga quidem enim quam sed, dolore quia praesentium modi labore iste! Aliquam ullam iure, explicabo distinctio enim corporis optio facilis magni laudantium perspiciatis cum inventore molestiae beatae veritatis."
     },
     {
         "title": "Doloremque accusantium voluptas a.",
+        "year": 2024,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Repellendus fugiat veritatis repudiandae in sit quasi, omnis tempore ea debitis error harum dolores dolorem quibusdam enim reprehenderit nisi mollitia voluptas recusandae quidem. Aliquid consequuntur eaque, quaerat corrupti laboriosam nesciunt."
     },
     {
         "title": "Assumenda doloremque a rem.",
+        "year": 2024,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Consectetur debitis, est incidunt deserunt ut suscipit nemo accusantium minima dolore earum delectus. Eaque, ducimus? Distinctio nobis hic doloremque modi, esse et nisi aut odit. Aliquid vero mollitia reprehenderit blanditiis?"
     },
     {
         "title": "Quasi nesciunt culpa nisi!",
+        "year": 2024,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Ipsa quisquam ratione porro voluptatum cumque, id velit voluptatibus at incidunt cum? Eveniet laboriosam, possimus fugiat quasi provident incidunt totam vero necessitatibus doloribus magnam sed ipsam debitis sit, numquam sunt?"
     },
     {
         "title": "Vero corporis numquam sequi.",
+        "year": 2023,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Quisquam id ratione nam, totam ad voluptas quae fugit reiciendis. Ipsam perferendis reiciendis aliquam sapiente quas debitis voluptate doloribus dicta fugit libero magni cum laboriosam iure, optio, distinctio totam repudiandae."
     },
     {
         "title": "Aliquid adipisci excepturi explicabo!",
+        "year": 2023,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Provident unde quaerat excepturi, molestias nihil nobis? Necessitatibus inventore adipisci reprehenderit minus nemo a officia ea commodi expedita ut, culpa maxime. Unde labore a obcaecati tenetur provident ab dolor nulla?"
     }
