@@ -12,6 +12,18 @@ projectsTitle.textContent = `${projects.length} Projects`;
 
 let query = '';
 
+let searchInput = document.querySelector('.searchBar');
+
+searchInput.addEventListener('input', (event) => {
+    query = event.target.value;
+
+    let filteredProjects = projects.filter((project) =>
+        project.title.toLowerCase().includes(query.toLowerCase())
+    );
+
+    renderProjects(filteredProjects, projectsContainer, 'h2');
+});
+
 let rolledData = d3.rollups(
     projects,
     (v) => v.length,
