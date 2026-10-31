@@ -184,3 +184,20 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
   flex-shrink: 0;
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+.container .legend {
+  flex: 1;
+  min-width: 15em;
+}
+
+.container #projects-pie-plot {
+  width: 100%;
+  flex: 0 1 20em;
+}
