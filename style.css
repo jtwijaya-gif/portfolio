@@ -216,3 +216,15 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1em;
   box-sizing: border-box;
 }
+
+.selected {
+  --color: oklch(60% 45% 0) !important;
+}
+
+#projects-pie-plot path.selected {
+  fill: var(--color);
+}
+
+#projects-pie-plot path {
+  cursor: pointer;
+}

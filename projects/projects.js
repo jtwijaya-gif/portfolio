@@ -12,6 +12,8 @@ projectsTitle.textContent = `${projects.length} Projects`;
 
 let query = '';
 
+let selectedIndex = -1;
+
 let searchInput = document.querySelector('.searchBar');
 
 function renderPieChart(projectsGiven) {
@@ -42,14 +44,43 @@ function renderPieChart(projectsGiven) {
     arcs.forEach((arc, idx) => {
         svg.append('path')
             .attr('d', arc)
-            .attr('fill', colors(idx));
+            .attr('fill', colors(idx))
+            .attr('class', selectedIndex === idx ? 'selected' : '')
+            .on('click', () => {
+                selectedIndex = selectedIndex === idx ? -1 : idx;
+            
+                svg.selectAll('path')
+                    .attr('class', (_, i) => i === selectedIndex ? 'selected' : '');
+            
+                legend.selectAll('li')
+                    .attr('class', (_, i) =>
+                        i === selectedIndex ? 'legend-item selected' : 'legend-item'
+                    );
+            
+                let filteredProjects = projects.filter((project) => {
+                    let values = Object.values(project).join('\n').toLowerCase();
+                    return values.includes(query.toLowerCase());
+                });
+            
+                if (selectedIndex === -1) {
+                    renderProjects(filteredProjects, projectsContainer, 'h2');
+                } else {
+                    let selectedYear = data[selectedIndex].label;
+            
+                    let yearProjects = filteredProjects.filter((project) =>
+                        project.year == selectedYear
+                    );
+            
+                    renderProjects(yearProjects, projectsContainer, 'h2');
+                }
+            });
     });
 
     data.forEach((d, idx) => {
         legend
             .append('li')
             .attr('style', `--color:${colors(idx)}`)
-            .attr('class', 'legend-item')
+            .attr('class', idx === selectedIndex ? 'legend-item selected' : 'legend-item')
             .html(`<span class="swatch"></span> ${d.label} <em>(${d.value})</em>`);
     });
 }
@@ -65,5 +96,6 @@ searchInput.addEventListener('input', (event) => {
     });
 
     renderProjects(filteredProjects, projectsContainer, 'h2');
+    selectedIndex = -1;
     renderPieChart(filteredProjects);
 });
