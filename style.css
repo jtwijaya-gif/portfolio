@@ -295,6 +295,7 @@ circle {
 
 circle:hover {
   transform: scale(1.5);
+  fill-opacity: 1;
 }
 
 dl.info[hidden]:not(:hover, :focus-within) {
