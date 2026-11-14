@@ -1,5 +1,12 @@
 [
     {
+        "title": "Bikewatching",
+        "year": 2026,
+        "image": "images/bikewatching.png",
+        "description": "DSC 106 Lab 7. Built an interactive map of bike traffic in Boston using Mapbox and D3, with a time slider to explore station activity and traffic flow.",
+        "url": "https://jtwijaya-gif.github.io/bikewatching/"
+    },
+    {
         "title": "Grocery Data Visualization",
         "year": 2026,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
@@ -15,7 +22,8 @@
         "title": "Personal Portfolio Website",
         "year": 2026,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Built a personal portfolio website using HTML, CSS, and JavaScript to showcase my projects, resume, and contact information."
+        "description": "Built a personal portfolio website using HTML, CSS, and JavaScript to showcase my projects, resume, and contact information.",
+        "url": "https://jtwijaya-gif.github.io/portfolio/"
     },
     {
         "title": "Harum repudiandae amet quos.",
